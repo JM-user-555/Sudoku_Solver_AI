@@ -1,0 +1,11 @@
+Hello, it's Jad Mattar. This is a description file of the project.
+
+In this file, we are going to build an AI agent that solves the sudoku using csp and backtracking.
+The Sudoku is defined as an array of 9 blocks as shown in the image "indices_clarification.jpg" labeled by a thick black border, containg the numbers from 1 to 9. Each block (for example the top left one) is a 2D array consisting of 3 rows and 3 columns. 
+This 3D array is the input of the system.
+Each empty cell is -1 and the numbered cell is represented by the number itself.
+
+Main Rule:
+Each row, column and block (9 spaces each) needs to be filled out with the numbers from 1 to 9, without repeating any numbers within the row, column or square.
+
+The solution should be returned based on the rule indicated above, no matter whether the sudoku is in easy or medium or hard mode.
